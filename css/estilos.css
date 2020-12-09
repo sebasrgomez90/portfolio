@@ -1,0 +1,344 @@
+nav .nav-link {
+    color: #282828;
+    font-weight: 400;
+}
+nav .nav-link:hover {
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 600;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.125);
+}
+nav .active {
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+.navbar-toggler {
+    background-color: white;
+    border-color: #e20000;
+}
+.fa-bars {
+    color: #e20000;
+    padding-top: 5px;
+}
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 200;
+}
+.btn-rojo:hover {
+    color: #FFFFFF;
+    background-color: #370A6D;
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e20000;
+}
+#proyectos, #sobre-mi {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e20000;
+}
+#inicio {
+    background-image: url(../images/fondo-inicio-libre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e20000;
+}
+#contacto main, #proyectos main, #inicio main {
+    height: 83vh;
+}
+#cohete {
+    background: url(../images/cohete1.png) no-repeat;
+    background-size: 350px 450px;
+    margin-top: 100px;
+    height: 450px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cohete:hover {
+    background: url("../images/cohete2.png") no-repeat;
+    background-size: 350px 450px;
+    transform: translate(0,-125px);
+    transition: all 1.5s ease-in-out;
+}
+.filainicio {
+    display: block;
+}
+#inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.texto-destacado{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.p-1 {
+    padding: .25rem !important;
+}
+h1 {
+    color: #e20000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+p {
+    color: #6a6a6a;
+}
+input, textarea {
+    border-radius: 15px !important;
+}
+textarea {
+    height: 150px !important;
+    resize: none;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem !important;
+}
+.m-1 {
+    margin: .25rem !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem !important;
+}
+#proyectos img {
+    height: 177px;
+}
+#proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.gradiente{
+    background-image: linear-gradient(to right, #8c0000, #fe0000);
+}
+.card p {
+    height: 100px;
+    font-size: 14px;
+    color: #6A6A6A;
+}
+.link-rojo {
+    color: #E20000;
+    font-size: 15px;
+}
+.link-rojo:hover {
+    color: #370A6D;
+    font-size: 15px;
+}
+.btn {
+    background-color: #FFFFFF;
+    color: #370A6D;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px 35px;
+    margin-top: 1rem !important;
+}
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #370A6D;
+    text-decoration: none;
+}
+footer, footer a {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+footer .oscuro {
+    color: #6a6a6a;
+    font-weight: 400;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+.text-left {
+    text-align: left !important;
+}
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+footer .fa-github:hover {
+    font-size: 30px;
+    color: #370A6D;
+}
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-linkedin-in:hover {
+    background-color: #370A6D;
+}
+.text-center {
+    text-align: center !important;
+    font-weight: 200;
+}
+footer div a:hover {
+    color: #370A6D;
+}
+.text-right {
+    text-align: right !important;
+}
+footer .fa-whatsapp {
+    color: white;
+    background-color: #370A6D;
+    font-size: 30px;
+    padding: 10px 19px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 65px;
+}
+footer .fa-whatsapp:hover {
+    background-color: white;
+    color: #370A6D;
+}
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+#sobre-mi footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+#proyectos footer .fa-github:hover {
+    font-size: 30px;
+    color: #370A6D;
+}
+#sobre-mi footer .fa-github:hover {
+    font-size: 30px;
+    color: #370A6D;
+}
+#proyectos footer .fa-linkedin-in{
+    color: white;
+    background-color: #E20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#sobre-mi footer .fa-linkedin-in {
+    color: white;
+    background-color: #E20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#proyectos footer .fa-linkedin-in:hover {
+    background-color: #370A6D;
+}
+#sobre-mi footer .fa-linkedin-in:hover {
+    background-color: #370A6D;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 76%;
+    z-index: 1030;
+}
+.img-circle {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 600;
+}
+h2 {
+    font-size: 1.5rem;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+#idiomas {
+    background-color: rgba(0,0,0,.125);
+}
+#idiomas .card {
+    background-color: #370A6D;
+    height: 170px;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas .fas {
+    font-size: 80px;
+    color: white;
+}
+#idiomas .col-8 {
+padding: 20px 10px 0px 20px;
+}
+.col-8 p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+#idiomas .card-idioma {
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,.125);
+    border-radius: 15px;
+}
+#experiencia .fas, #estudios .fas{
+    font-size: 70px;
+    color: #370A6D;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+#experiencia h2, #estudios h2 {
+    font-weight: 600;
+    color: #370A6D;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
